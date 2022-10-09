@@ -3,10 +3,9 @@ body{
 }
 
 h1{
-    color:brown
+    color:brown;
 }
 
-nav{
-    background-color: lightblue;
-    text-align: center;
+#indexH1{
+    font-family: 'montserrat';
 }
