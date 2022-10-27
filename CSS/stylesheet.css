@@ -16,5 +16,22 @@ h1{
     align-items: center;
     background-color: #A6CAD4;
     padding: 10px;
-    
+}
+.container2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2 1fr);
+}
+.paragraphHeading{
+    grid-column: 1;
+    grid-row: 1;
+}
+#frogImage{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#myselfPPG1{
+    grid-row: 2/3;
+    grid-column: 1;
+    padding-right: 20px;
 }
