@@ -17,6 +17,9 @@ h1{
     background-color: #A6CAD4;
     padding: 10px;
 }
+nav a{
+    padding: 5px;
+}
 .container2{
     display: grid;
     grid-template-columns: 2fr 1fr;
