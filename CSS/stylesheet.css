@@ -10,7 +10,7 @@ h1{
     font-family: 'montserrat';
 }
 
-.topContainer{
+header{
     display:flex;
     flex-direction: column;
     align-items: center;
