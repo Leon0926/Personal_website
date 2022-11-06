@@ -43,6 +43,11 @@ nav a{
     grid-column: 1;
     
 }
+.courses{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
 footer{
     display:flex;
     flex-direction: column;
