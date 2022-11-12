@@ -13,3 +13,18 @@ let course3={
 
 let courseList = [course1, course2, course3];
 
+number = input();
+if((number.length != 4) || (Number(number)!=true)){
+    number = input()
+};
+
+for (let i = 0; i < array.length; i++) {
+    if (array[i].code == number){
+        console.log(`Yes I am taking the course: ${array[i].code} - ${array[i.name]}`)
+    }
+    else{
+        let num = i+4
+        let arrayListName = 'course'.concat(num)
+    }
+};
+    
